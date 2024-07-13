@@ -1,0 +1,429 @@
+body {
+    display: grid;
+    margin: 0;
+    display: grid;
+    box-sizing: border-box;
+    border: solid 1px;
+
+}
+
+#inicio {
+    display: grid;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+#email {
+    grid-column-start: 2;
+    margin-top: 20px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    font-size: 18px;
+}
+
+#txtemail {
+
+    padding-left: 25px;
+}
+
+#txt2 {
+    grid-column-start: 3;
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#iconisinicio {
+    margin-top: 20px;
+    font-family: "Cairo", sans-serif;
+    text-align: right;
+}
+
+#iconisinicio svg {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#cabeçalho2 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 240px;
+}
+
+#imglogo {
+    grid-column-start: 2;
+    margin-top: 30px;
+    text-align: left;
+}
+
+#botoes {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    margin-top: 33px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#iconisitens {
+
+    grid-column-start: 4;
+    margin-top: 33px;
+    grid-row-start: 1;
+    font-family: "Cairo", sans-serif;
+    text-align: right;
+}
+
+#alld {
+    grid-column-start: 2;
+    grid-row-start: 2;
+
+}
+
+#botaoverde {
+    font-size: 2.0rem;
+    border-radius: 0px;
+    width: 260px;
+    height: 50px;
+    background-color: #7fad39;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#listall {
+    display: none  ;
+    list-style-type: none;
+}
+
+#a:checked + label + .b {
+    display: block;
+}
+#navegaçao {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-column-end: 5;
+    padding-top: 15px;
+    width: 840px;
+    font-size: 20px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    display: flex;
+   
+}
+
+#navegaçao input {
+    height: 40px;
+    padding-top: 0;
+
+}
+#search{ height: 47px;
+    width: 80px;
+    background-color: #7fad39;
+}
+
+#borderphone{
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+#imagemvegetable{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#imagemvetetable{
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+}
+#imgvege{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: url(banner.jpg);
+    width: 840px;
+}
+#textfruit{
+ position: relative;
+ left: 820px;
+align-items: center;
+padding-top: 80px;
+}
+
+#btnshopnow{
+    font-size: 14px;
+    padding: 10px 28px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #7fad39;
+    letter-spacing: 2px;
+   border: none;
+}
+#fruit{
+    color: #7fad39;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    
+}
+#textorg{
+    font-size: 46px;
+color: #252525;
+line-height: 52px;
+font-weight: 700;
+margin: 10px ;
+}
+#banneralimentos{
+    width: 86%;
+    height: 500px;
+    display: grid;
+    grid-template-columns:1fr repeat(6);
+    grid-template-rows: 100%;
+    
+    
+}
+#vazio{
+    padding-left: 230px;
+    margin-top: 40px;
+    grid-column-start: 1;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+#laranja{
+    margin-top: 40px;
+    grid-column-start: 2;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#txtcomidas{
+    position: relative;
+    top: -70px; 
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+      
+}
+#carne{
+    margin-top: 40px;
+    grid-column-start: 3;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#sucodeuva{
+    margin-top: 40px;
+    grid-column-start: 4;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+#sacodealimentos{
+    margin-top: 40px;
+    grid-column-start: 5;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+#banner2linhasdecomida{
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 50% 50%;
+    width: 86%;
+    height: 500px;
+}
+#txt2comidas{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}  
+#txtfeatured{
+    text-align: top;
+    margin-left: 40%;
+    margin-top: -150px;
+       
+}
+.minigrid{
+    display: grid;
+    grid-template-columns: 6% 10% 10% 10% 10%  ;
+}
+#imgdupla{
+    display: grid;  
+    grid-template-columns: 15% 20% 20% 20% 25%;
+    grid-template-rows: 1;
+}
+#imgazul{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 35px;
+}
+#imglaranja{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+#banner3itens{
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 4;
+    width: 100%;
+    height: 600px;
+}
+#Lates{
+    margin-left: 17%;
+    display: grid;  
+    grid-template-columns: 30% 30% 30%;
+    text-align: inherit;
+    font-size: 2.1rem;
+
+}
+#Lates1{
+    margin-left: 17%;
+    display: grid;  
+    grid-template-columns: 30% 30% 30%;
+}
+
+
+
+.seta1{
+padding-left: 60px;
+}
+
+
+#Lates1 div div{
+    position: relative;
+    text-align: center;
+    top: -100px;
+}
+
+#titulofrom{
+    text-align: center;
+    font-size: 3em;
+
+}
+#finatitulofrom{
+height: 200px;
+
+}
+#finalpag1{
+    margin-left: -50px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    height: 600px;
+    grid-template-rows: 100%;
+    width: 100%;
+
+}
+#imgsucorosa{
+    grid-column-start: 2;
+
+}
+#imgervilha{
+    grid-column-start: 3;
+}
+#imglaranjas{
+    grid-column-start: 4;
+}
+.ico_esq{ 
+padding-left: 20px;
+    
+}
+#imglaranjas p{
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+#imgsucorosa p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#txt1final{
+    font-size: 1.2rem;
+    color: #1c1c1c;
+    font-weight: 700;
+}
+#txt2final{
+    color:  #6f6f6f;
+}
+#informaçoesfinal{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    width: 100%;
+    height: 600px;
+    background: #F3F6FA;
+}
+#logofinal{
+    grid-column-start: 2;
+    margin-top: 80px;
+    font-size: 1.1rem;
+}
+#listfinal p{
+    margin-top: 110px;
+    font-size: 1.2rem;
+    color: #1c1c1c;
+    font-weight: 700;
+}
+#listasfinal2{
+    display: flex;
+    flex-direction: row;  
+  
+}
+#joinfinal{
+    margin-top: 90px;
+}
+#joinfinal p{
+    font-size: 1.2rem;
+    color: #1c1c1c;
+    font-weight: 700;
+}
+#joinfinal input{
+    height: 46px;
+}
+#joinfinal button{
+    background-color: #7fad39;
+    height: 51px;
+    border: none;
+    width: 100px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#sub{
+    position: relative;
+    left: -4px;
+}
+#iconisfinal svg{
+    margin-left: 40px;  
+}
+#ultimotxt{
+  width:  600px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 150px;
+}
+
+
+
+
+
+  
